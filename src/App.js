@@ -1,11 +1,18 @@
+import logo from './logo.png';
 import React from 'react';
 
 function App() {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       <header className="bg-green-600 text-white p-4 shadow-md">
-        <h1 className="text-3xl font-bold">Himalayas General Store</h1>
-        <p className="text-sm">Your Local Nepali & Indian Grocery Store in the U.S.</p>
+       <div className="flex items-center gap-4">
+  <img src={logo} alt="Himalayas General Store Logo" className="h-16 w-16 rounded-full" />
+  <div>
+    <h1 className="text-3xl font-bold">Himalayas General Store</h1>
+    <p className="text-sm">Your Local Nepali & Indian Grocery Store in the U.S.</p>
+  </div>
+</div>
+
       </header>
 
       <section className="bg-yellow-50 p-6 text-center">
